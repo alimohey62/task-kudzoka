@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-first{
+    position: relative;
+}
+.sec-first .background{
+    z-index: -100;
+    position: absolute;
+    width: 100%;
+    height: 720px;
+}
+.sec-first nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-left{
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+}
+.nav-left .nav-logo img{
+    width: 120px;
+}
+.nav-left .nav-links{
+    margin-top: 17px;
+}
+.nav-left .nav-links a{
+    margin-left: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.724);
+}
+.nav-left .nav-links a:hover{
+    color: rgb(125, 38, 183);
+}
+.nav-right img{
+    width: 90px;
+}
+.nav-right{
+    margin-top: 40px;
+    margin-right: 50px;
+    position: relative;
+}
+.nav-right a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.806);
+    position: absolute;
+    top: 3px;
+    right: 27px;
+}
+.sec-first .text-images{
+    display: flex;
+}
+.sec-first .text-deliver{
+    padding-top: 150px;
+    margin-left: 120px;
+}
+.sec-first .text-deliver h1{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.763);
+    font-weight: 600;
+}
+.sec-first .text-deliver h1 span{
+    color: rgb(124, 30, 186);
+}
+.sec-first .text-deliver p{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.763);
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec-first .three-images{
+    position: relative;
+}
+.three-images .landing{
+    width: 670px;
+}
+.three-images .man{
+    width: 280px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+.three-images .cloud{
+    width: 450px;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+}
+.text-images .waves{
+    position: absolute;
+    width: 75%;
+    height: 200px;
+    top: 580px;
+}
+.sec-second .three-divs{
+    display: flex;
+    justify-content: space-around
+}
+.div-one{
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 60px;
+}
+.div-one h2{
+    font-size: 19px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.div-one p{
+    font-size: 13px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.div-two{
+    margin-top: 240px;
+    text-align: center;
+    margin-left: 60px;
+}
+.div-two h2{
+    font-size: 19px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.div-two p{
+    font-size: 13px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.div-three{
+    margin-top: 480px;
+    margin-right: 60px;
+    text-align: center;
+}
+.div-three h2{
+    font-size: 19px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.div-three p{
+    font-size: 13px;
+    color: rgba(30, 29, 29, 0.728);
+}
+.sec-second{
+    position: relative;
+}
+.div-roud {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    z-index: -1;
+}
+.sec-second .div-why img{
+    position: absolute;
+    top: 440px;
+    left: 70px;
+}
+.sec-second .div-why h4{
+    font-size: 21px;
+    color: rgba(30, 29, 29, 0.728);
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+}
+.sec-second .div-why h1{
+    font-size: 33px;
+    color: rgba(30, 29, 29, 0.772);
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+}
+.sec-three .img-group{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.img-group .img-center{
+    width: 500px;
+}
+.img-group .img-one{
+    width: 180px;
+    margin-top: 140px;
+    margin-right: 30px;
+}
+.img-group .img-end{
+    width: 180px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.sec-three .div-texts{
+    text-align: center;
+}
+.div-texts h1{
+    font-size: 21px;
+    color: #999999;
+}
+.div-texts p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: #999999;
+}
+footer{
+    position: relative;
+}
+footer .all-footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .foot-background{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -5;
+}
+.all-footer .divsfoot-left{
+    margin-top: 150px;
+}
+.foot-one{
+    display: flex;
+}
+.foot-one .but-one{
+    position:relative
+}
+.but-one .but-login{
+    width: 125px;
+}
+.but-one .apple{
+    width: 27px;
+    position: absolute;
+    left: 5px;
+}
+.but-one .kodzoka-1{
+    color: rgba(14, 14, 14, 0.824);
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    left: 35px;
+}
+.but-one .app-store{
+    color: rgb(130, 63, 176);
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.foot-one .but-two{
+    margin-left: 30px;
+    position:relative
+}
+.but-two .but-login2{
+    width: 125px;
+}
+.but-two .play-store{
+    width: 25px;
+    position: absolute;
+    left: 8px;
+    top: 5px;
+}
+.but-two .kodzoka-2{
+    color: rgba(14, 14, 14, 0.824);
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    left: 35px;
+}
+.but-two .play-tore{
+    color: rgb(130, 63, 176);
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.foot-two{
+    margin-top: 30px;
+}
+.foot-two .icon{
+    width: 23px;
+}
+.foot-two a{
+    margin-left: 10px;
+}
+.foot-three{
+    margin-top: 40px;
+}
+.foot-three a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.92);
+    margin-left: 20px;
+}
+.foot-three a:hover{
+    color: rgb(130, 63, 176);
+}
+.foot-right img{
+    width: 520px;
+    height: 350px;
+    margin-right: 30px;
+}
+ 
