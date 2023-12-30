@@ -501,14 +501,14 @@ footer .foot-background{
     }
     .sec-second .div-why h4{
         font-size: 15px;
-        color: rgba(30, 29, 29, 0.728);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 100px;
         left: 50px;
     }
     .sec-second .div-why h1{
         font-size: 25px;
-        color: rgba(30, 29, 29, 0.772);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 60px;
         left: 50px;
@@ -820,9 +820,9 @@ footer .foot-background{
         z-index: -1;
     }
     .div-roud img{
-        width: 480px;
-        height: 520px;
-        margin-left: 120px;
+        width: 430px;
+        height: 480px;
+        margin-left: 90px;
     }
     .sec-second .div-why img{
         width: 170px;
@@ -832,14 +832,14 @@ footer .foot-background{
     }
     .sec-second .div-why h4{
         font-size: 15px;
-        color: rgba(30, 29, 29, 0.728);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 90px;
         left: 50px;
     }
     .sec-second .div-why h1{
         font-size: 24px;
-        color: rgba(30, 29, 29, 0.772);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 60px;
         left: 50px;
@@ -852,14 +852,16 @@ footer .foot-background{
         justify-content: center;
     }
     .img-group .img-center{
-        width: 300px;
+        width: 260px;
         margin-top: 70px;
     }
     .img-group .img-one{
-        width: 130px;
+        width: 100px;
+        
     }
     .img-group .img-end{
-        width: 140px;
+        width: 100px;
+        margin-right: 30px;
     }
     .sec-three .div-texts{
         text-align: center;
@@ -1159,14 +1161,14 @@ footer .foot-background{
     }
     .sec-second .div-why h4{
         font-size: 15px;
-        color: rgba(30, 29, 29, 0.728);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 90px;
         left: 50px;
     }
     .sec-second .div-why h1{
         font-size: 24px;
-        color: rgba(30, 29, 29, 0.772);
+        color: rgb(255, 255, 255);
         position: absolute;
         bottom: 60px;
         left: 50px;
@@ -1645,6 +1647,159 @@ footer .foot-background{
     }
 }
 @media screen  and (min-width: 1200px) and (max-width: 1400px) {
+    /* start section first */
+    .sec-first{
+        position: relative;
+    }
+    .sec-first .background{
+        z-index: -100;
+        position: absolute;
+        width: 100%;
+        height: 550px;
+    }
+    .sec-first nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .nav-left{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 30px;
+    }
+    .nav-left .nav-logo img{
+        width: 120px;
+    }
+    .nav-left .nav-links{
+        margin-top: 17px;
+    }
+    .nav-left .nav-links a{
+        margin-left: 30px;
+        font-size: 17px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.724);
+    }
+    .nav-left .nav-links a:hover{
+        color: rgb(125, 38, 183);
+    }
+    .nav-right img{
+        width: 90px;
+    }
+    .nav-right{
+        margin-top: 40px;
+        margin-right: 40px;
+        position: relative;
+    }
+    .nav-right a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.806);
+        position: absolute;
+        top: 3px;
+        right: 27px;
+    }
+    .sec-first .text-images{
+        display: flex;
+    }
+    .sec-first .text-deliver{
+        padding-top: 100px;
+        margin-left: 70px;
+    }
+    .sec-first .text-deliver h1{
+        font-size: 45px;
+        color: rgba(61, 59, 59, 0.763);
+        font-weight: 600;
+    }
+    .sec-first .text-deliver h1 span{
+        color: rgb(124, 30, 186);
+    }
+    .sec-first .text-deliver p{
+        margin-top: 15px;
+        color: rgba(0, 0, 0, 0.404);
+        font-size: 20px;
+        font-weight: 400;
+        margin-right: 30px;
+    }
+    .sec-first .three-images{
+        position: relative;
+    }
+    .three-images .landing{
+        width: 570px;
+        height: 500px;
+    }
+    .three-images .man{
+        width: 220px;
+        position: absolute;
+        top: 10px;
+        left: 130px;
+    }
+    .three-images .cloud{
+        width: 300px;
+        position: absolute;
+        top: 280px;
+        left: 97px;
+    }
+    .text-images .waves{
+        position: absolute;
+        width: 82%;
+        height: 200px;
+        top: 390px;
+    }
+    /* end section first */
+    /* start section second */
+    .sec-second .three-divs{
+        display: flex;
+        justify-content: space-around;
+    }
+    .div-one{
+        text-align: center;
+        margin-left: 60px;
+    }
+    .div-one img{
+        width: 150px;
+    }
+    .div-one h2{
+        font-size: 19px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .div-one p{
+        font-size: 14px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .div-two{
+        margin-top: 240px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .div-two img{
+        width: 150px;
+    }
+    .div-two h2{
+        font-size: 19px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .div-two p{
+        font-size: 14px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .div-three{
+        margin-top: 450px;
+        margin-right: 60px;
+        text-align: center;
+    }
+    .div-three img{
+        width: 150px;
+    }
+    .div-three h2{
+        font-size: 19px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .div-three p{
+        font-size: 14px;
+        color: rgba(30, 29, 29, 0.728);
+    }
+    .sec-second{
+        margin-top: 100px;
+        position: relative;
+    }
     .div-roud {
         position: absolute;
         top: 5px;
@@ -1652,10 +1807,33 @@ footer .foot-background{
         z-index: -1;
     }
     .div-roud img{
-        width: 780px;
-        height: 555px;
+        width: 790px;
+        height: 490px;
     }
-    /* ......... */
+    .sec-second .div-why img{
+        width: 300px;
+        position: absolute;
+        top: 430px;
+        left: 80px;
+    }
+    .sec-second .div-why h4{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 60px;
+        left: 150px;
+    }
+    .sec-second .div-why h1{
+        font-size: 34px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 20px;
+        left: 150px;
+    }
+    /* end section second */
+    /* start footer */
     .foot-three a{
         font-size: 13px;
         text-decoration: none;
@@ -1674,4 +1852,5 @@ footer .foot-background{
         width: 500px;
         height: 350px;
     }
+    /* end footer */
 }
